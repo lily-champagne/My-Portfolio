@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="ICON" href="img/fav.ico" type="image/ico" />
+
+</head>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+          <img src="img/logo_2.svg" alt="Lily Champagne: Graphic Designer Logo" class="logo">
+            <nav>
+              
+                <ul>
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class='navigation'>
+            <div id="menuToggle">
+           
+              <input type="checkbox" />
+              
+          
+              <span></span>
+              <span></span>
+              <span></span>
+              
+            
+              <ul id="menu">
+
+                <a href="index.html"><li>Projects</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+              </ul>
+            </div>
+          </nav>
+     </nav>   
+    <div class="header">
+      <h1>Contact</h1>
+    </div>
+  <div class="pageContainer">
+    <div class="email">
+        <h2>Want to get in touch? Email me at</h2>
+
+   
+
+    <input type="text" value="hello@lilychampagne.me" id="myInput">
+
+<div class="tooltip">
+<button onclick="myFunction()" onmouseout="outFunc()">
+  <!-- <span class="tooltiptext" id="myTooltip">Copy to clipboard</span> -->
+  Copy Email
+  </button>
+</div>
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied!";
+}
+
+// function outFunc() {
+//   var tooltip = document.getElementById("myTooltip");
+//   tooltip.innerHTML = "Copy to clipboard";
+// }
+</script>
+<!-- </div>
+   <div class="linkedin">
+      <h2>Find me on LinkedIn!</h2> 
+      <a href="https://www.linkedin.com/in/lily-champagne-934a33160/" target="_blank"><button>View My LinkedIn</button></a>
+   </div> -->
+
+</div>
+</div>
+
+</div>
+
+    
+        <footer>
+            <div class="socialList">
+                
+              <div class="socialIcon"><a href="https://www.instagram.com/champagne.designs/"  target="_blank"><img src="img/iconmonstr-instagram-14.svg" ></a></div>
+              <div class="socialIcon"><a href="https://www.linkedin.com/in/lily-champagne-934a33160/"  target="_blank"><img src="img/iconmonstr-linkedin-4.svg"></a></div>
+              <div class="socialIcon"><a href="https://www.behance.net/champagl10c7b"  target="_blank"><img src="img/iconmonstr-behance-4.svg"></a></div>
+               
+            </div>
+            <div class="siteMap">
+                <ul>
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="about.css">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            <div class="copyright">
+                <p>© Lily Champagne 2021</p>
+            </div>
+            </div>
+        </footer>
+
+    
+</body>
+</html>

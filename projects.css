@@ -1,0 +1,47 @@
+.container {
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	 animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+     -webkit-animation: color-change-3x 17s linear infinite alternate both;
+	 animation: color-change-3x 17s linear infinite alternate both;
+}
+
+.logo   {
+    width: 200px;
+    display: block;
+    
+}
+
+.header  {
+   margin-top: 80px;
+   margin-bottom: 80px;
+    align-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.col2   {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 576px)    {
+ 
+    .logo {
+        display: none;
+    }
+
+    .col2   {
+        margin-top: 0px;
+        padding-right: 0;
+    }
+
+    h1{
+        margin-top: 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px)  {
+    .logo{ display: none;}
+  }

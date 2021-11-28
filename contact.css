@@ -1,0 +1,118 @@
+.container{
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	 animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+   -webkit-animation: color-change-3x 17s linear infinite alternate both;
+	 animation: color-change-3x 17s linear infinite alternate both;
+}
+
+.logo   {
+    width: 200px;
+    display: block;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+h2{
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  } */
+
+ #myInput   {
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -.7px;
+    padding-right: 100px;
+    margin-right: 100px;
+  
+ }
+
+ button{
+     margin-top: 30px;
+     color: white;
+     font-family: 'Raleway', sans-serif;
+ }
+
+ .email {
+    padding: 20px 50px 20px 30px;
+     align-items: center;
+     background-color: rgba(255, 255, 255, 0.61);
+     border-radius: 30px;
+     -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     
+ }
+
+ .pageContainer {
+  padding-bottom: 300px;
+ }
+
+ @media screen and (max-width: 576px)    {
+  .container  {
+    padding-left: 1%;
+  }
+    .logo{ display: none;}
+    #myInput   {
+     font-weight: 600;
+     font-size: 24px;
+     
+  }
+
+  
+}
+
+@media screen and (max-width: 768px)  {
+  .logo{ display: none;}
+  .container{
+    padding-left: 30px;
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	 animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+   -webkit-animation: color-change-3x 17s linear infinite alternate both;
+	 animation: color-change-3x 17s linear infinite alternate both;
+}
+}

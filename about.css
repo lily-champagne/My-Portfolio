@@ -1,0 +1,255 @@
+.container {
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	 animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+     -webkit-animation: color-change-3x 17s linear infinite alternate both;
+	 animation: color-change-3x 17s linear infinite alternate both;
+}
+
+.header  {
+    margin-top: 100px;
+     align-content: center;
+     margin-bottom: 80px;
+     text-align: center;
+ }
+
+ .logo   {
+    width: 200px;
+    display: block;
+    
+}
+ 
+ .aboutMe   {
+     padding-left: 100px;
+     padding-right: 100px;
+ }
+ .aboutMe h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 0px;
+    padding-left: 00px;
+    margin-bottom: 20px;
+ }
+
+ .aboutWrapper{
+     display: flex;
+     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 30px;
+    -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	 animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ }
+ .aboutMe p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+ }
+ .myPic {
+     margin-left: 100px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+ }
+
+ .myPic img{
+     width: 250px;
+     border-radius: 10px;
+     /* -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	 animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+ }
+
+ .skills    {
+     margin-top: 100px;
+     margin-left: 30px;
+ }
+ .skills p{
+    font-size: 50px;
+    line-height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 20px;
+    -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	 animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     margin-bottom: 40px;
+ }
+
+ .skills h1 {
+     text-align: center;
+     margin-bottom: 80px;
+ }
+
+ .experience{
+     margin-left: 70px;
+     padding-bottom: 50px;
+     /* display: flex;
+     flex-direction: column;
+     align-items: center; */
+ }
+
+ .experience h1{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+ }
+
+ .experience h2{
+     text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+
+ .experience h3{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding-left: 0;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+ }
+
+ .experience p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+   
+ }
+
+ .xpItem {
+     padding: 20px 30px 20px 30px;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 20px;
+    -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	 animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     margin-bottom: 40px;
+     
+ }
+
+ @media screen and (max-width: 576px)    {
+    .aboutWrapper{
+        display: block;
+    }
+
+    .logo{ display: none;}
+
+    .aboutMe   {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+.header{
+    margin-top: 100px;
+     align-content: center;
+     margin-bottom: 100px;
+     text-align: center;
+ }
+
+  
+}
+
+@media screen and (max-width: 768px)    {
+    .logo{ display: none;}
+    
+    .aboutWrapper{
+        display: block;
+    }
+  
+    .myPic img{
+        width: 250px;
+        border-radius: 10px;
+        -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+ 
+    .aboutMe p {
+        font-family: 'Raleway', sans-serif;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 30px;
+    }
+    .myPic {
+        margin-left: 10px;
+        text-align: center;
+    }
+   
+    .myPic img{
+        width: 250px;
+        margin-bottom:30px;
+        border-radius: 10px;
+        text-align: center;
+        -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    .skills    {
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    .skills p{
+       font-size: 50px;
+       line-height: 80px;
+       font-family: 'Raleway', sans-serif;
+       
+       text-align: center;
+    }
+   
+    .skills h1 {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+   
+    .experience{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 50px;
+    
+    }
+   
+    .experience h1{
+       text-align: center;
+       margin-bottom: 80px;
+       margin-top: 80px;
+    }
+   
+    .experience h2{
+        text-align: left;
+       font-size: 28px;
+       font-weight: 600;
+       font-family: 'Raleway', sans-serif;
+       letter-spacing: 0;
+       margin-bottom: 10px;
+       margin-top: 50px;
+    }
+   
+    .experience h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-left: 0;
+       font-size: 22px;
+       font-weight: 400;
+       font-family: 'Raleway', sans-serif;
+       color: black;
+    }
+   
+    .experience p{
+       font-size: 18px;
+       line-height: 32px;
+       font-weight: 400;
+       font-family: 'Raleway', sans-serif;
+       color: black;
+      
+    }
+
+
+}

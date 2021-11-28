@@ -1,0 +1,1111 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+a{
+  text-decoration: none;
+}
+
+.container  {
+  
+    /* background-color: #fcf1f5; */
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    box-sizing: border-box;
+    align-items: center;
+    /* -webkit-animation: color-change-3x 17s linear infinite alternate both;
+	 animation: color-change-3x 17s linear infinite alternate both; */
+   background-image: url(img/background4.png);
+   background-size:cover;
+   -webkit-animation: bg-pan-left 15s alternate-reverse both;
+   animation: bg-pan-left 15s alternate-reverse both;
+    
+}
+
+.navBar {
+    
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    align-content: center;
+   
+}
+
+.navigation{
+  display: none;
+}
+
+
+
+
+.logo   {
+    width: 200px;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+/* button  {
+    background-color:rgb(18, 18, 19);
+    color: white;
+
+} */
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(18, 18, 19);
+    font-size: 23px;
+    
+    
+}
+
+nav ul li a:hover{
+  font-weight: 600 ;
+  -webkit-animation: slide-top2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  
+
+}
+nav ul li a:target {
+  font-weight: 600 ;
+
+}
+
+
+.wrapper    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.col    {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+
+}
+
+.title  {
+    margin-top: 60px;
+    width: 418px;
+    margin-bottom: 50px;
+    
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	 animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  
+}
+
+h1{
+    color: rgb(18, 18, 19);
+    font-size: 49px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.title h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title p   {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(18, 18, 19);
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+}
+
+.card   {
+    width: 418px;
+    height: 297px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    /* box-shadow: 3px 3px 5px; */
+    margin-bottom: 50px;
+    transition: .7s ease;
+    /* Intro animation */
+    -webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.75s both;
+	animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.75s both;
+
+    /* Shadow */
+    -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	 animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   opacity: .85;
+}
+/* 
+.col1 {
+  width: 100%;
+  
+} */
+h3   {
+    margin-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.card p     {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: rgb(255, 255, 255 );
+}
+
+
+.projectLink    {
+    text-decoration: none;
+}
+
+.text{
+    opacity: 0;
+    
+
+}
+.card:hover    {
+    background-color: #363232;
+    background-blend-mode: multiply;
+    color: rgba(255, 255, 255);
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	 animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.card:hover .text   {
+    opacity: 1;
+}
+    
+   
+ 
+
+
+.card1  {
+  
+    background-image: url(img/thesiscard.png) ;
+}
+
+.card2  {
+    background-image: url(img/mjbrochurecard.png) ;
+}
+
+.card3  {
+    background-image: url(img/dorskycard.png) ;
+}
+
+.card4  {
+    background-image: url(img/assemblycard.png) ;
+    margin-top: 80px;
+}
+
+.card5  {
+    background-image: url(img/mexicankitchencard.png) ;
+}
+
+.card6  {
+    background-image: url(img/hyperallergiccard.png) ;
+}
+.card7  {
+    background-image: url(img/infinitycard.png) ;
+}
+
+.button {
+display: flex;
+justify-content: center;
+color: rgba(17, 17, 17);
+
+}
+
+button  {
+  background-color:rgba(17, 17, 17);
+  border: none;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+button a  {
+  color: white;
+}
+button a:hover button{
+   -webkit-animation: slide-top2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+  /* FOOTER */
+  
+  footer{
+    background-color: #5D5555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .socialList{
+    
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 600px;
+    padding-right: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .socialIcon img{
+  width: 40px;
+  padding-right: 20px;
+   
+  }
+
+  .socialIcon a img:hover {
+    -webkit-animation: slide-top2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+
+  .siteMap li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .copyright p  {
+    font-family: 'Raleway', sans-serif;
+    font-weight:100;
+    font-size: 12px;
+    color: #E0E1E0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .siteMap a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight:100;
+    font-size: 16px;
+    color: #E0E1E0;
+  }
+
+
+  /* ----------------------------------------------
+ * Generated by Animista on 2021-4-13 22:33:44
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation color-change-3x
+ * ----------------------------------------
+ */
+
+ /* BACKGROUND */
+/* @-webkit-keyframes color-change-3x {
+  0% {
+    background: #FFF6FA;
+  }
+  50% {
+    background: #FFFCF8;
+  }
+  100% {
+    background: #FBFBFB;
+    }
+  }
+  @keyframes color-change-3x {
+    0% {
+      background: #FFF6FA;
+    }
+    50% {
+      background: #FFFCF8;
+    }
+    100% {
+      background: #FBFBFB;
+      }
+    } */
+
+    @-webkit-keyframes bg-pan-left {
+      0% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    @keyframes bg-pan-left {
+      0% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    /* INTRO */
+
+    @-webkit-keyframes fade-in-top {
+        0% {
+          -webkit-transform: translateY(-50px);
+                  transform: translateY(-50px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      @keyframes fade-in-top {
+        0% {
+          -webkit-transform: translateY(-50px);
+                  transform: translateY(-50px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      /* CARDS */
+      @-webkit-keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes shadow-drop-tb {
+        0% {
+          -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+                  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+          -webkit-box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+                  box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+        }
+      }
+      @keyframes shadow-drop-tb {
+        0% {
+          -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+                  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+          -webkit-box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+                  box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+        }
+      }
+      
+      @-webkit-keyframes slide-top {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -webkit-transform: translateY(-30px);
+                  transform: translateY(-30px);
+        }
+      }
+      @keyframes slide-top {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -webkit-transform: translateY(-30px);
+                  transform: translateY(-30px);
+        }
+      }
+
+      
+      @-webkit-keyframes slide-top2 {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -webkit-transform: translateY(-10px);
+                  transform: translateY(-10px);
+        }
+      }
+      @keyframes slide-top2 {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+        }
+        100% {
+          -webkit-transform: translateY(-10px);
+                  transform: translateY(-10px);
+        }
+      }
+
+  /* MOBILE */
+
+@media screen and (max-width: 576px)    {
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+    .container  {
+      margin: 0;
+      padding: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+        /* padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%; */
+        box-sizing: border-box;
+        align-items: center;
+    }
+    
+  
+
+    .logo   {
+        width: 200px;
+        display: none;
+    }
+    
+    nav{
+        display: none;
+    }
+
+    .wrapper    {
+   
+        display: block;
+        align-content: center;
+        align-items: center;
+   
+      
+    }
+
+    /* .col2    {
+    
+      width: 100%;
+  
+  } */
+
+    .title  {
+      margin-top: 100px;
+      width: 418px;
+      margin-bottom: 50px;
+      -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+     animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+     
+    
+  }
+
+  .title h1 {
+    text-align: left;
+  }
+
+  .title h2 {
+    text-align: left;
+  }
+  
+  h1{
+      color: rgb(18, 18, 19);
+      font-size: 41px;
+      font-family: 'Raleway', sans-serif;
+
+  }
+  
+  h2 {
+    font-family: 'Raleway', sans-serif;
+      font-weight: 100;
+      font-size: 22px;
+      letter-spacing: 9px;
+  }
+
+  .card4 {
+    margin-top: 0px;
+  }
+  
+  .title p   {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: rgb(18, 18, 19);
+      font-size: 15px;
+      line-height: 30px;
+      padding-right: 80px;
+      font-family: 'Raleway', sans-serif;
+      
+  }
+
+  .card   {
+    width: 100%;
+    height: 213px;
+  }
+
+  h3   {
+    margin-top: 25px;
+    padding-left: 25px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.card p     {
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: rgb(255, 255, 255 );
+}
+
+.card:hover    {
+  background-color: rgba(17, 17, 17, 0);
+  background-blend-mode: multiply;
+  color: rgba(255, 255, 255);
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.card:hover .text   {
+  opacity: 0;
+}
+  /* HAMBURGER MENU */
+
+  .navigation {
+    display: block;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+ 
+  overflow-x: hidden; 
+}
+
+.navigation a
+{
+  text-decoration: none;
+  color: #FFE6F0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #232323;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #FFE6F0;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  height: 100vh;
+  width: 500px;
+  margin: -100px 0 0 0;
+  padding-top: 125px;
+  right: -100px;
+  background: #0f0f0ff5;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+
+#menu li
+{
+  padding: 5% 0;
+  font-size: 1.75em;
+  display: block;
+  padding-left: 70px;
+ text-align: left;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+  opacity: 1;
+}
+
+
+/* MENU */
+
+.menuGrid   {
+    flex-wrap: wrap;
+}
+
+
+
+
+/* FOOTER */
+
+.socialIcon img{
+  /* width: 80%; */
+  margin-bottom: 0px;
+
+}
+
+.socialList{
+    
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+}
+
+
+@media only screen and (min-width:567px) and (max-width: 768px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+    .container  {
+ 
+      padding-left: 20px;
+      padding-right: 20px;
+        /* padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%; */
+        box-sizing: border-box;
+        justify-content: center;
+    
+    }
+    .logo   {
+        width: 200px;
+        display: none;
+    }
+    
+    nav{
+        flex: 1;
+        text-align: right;
+        display: none;
+    }
+
+    .wrapper    {
+      padding-left: 20%;
+       display: block;
+
+      
+    }
+
+    .card4 {
+      margin-top: 0px;
+    }
+
+  
+
+    .title  {
+      margin-top: 100px;
+      width: 418px;
+      margin-bottom: 50px;
+      -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+     animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    
+  }
+  
+  h1{
+      color: rgb(18, 18, 19);
+      font-size: 48px;
+      font-family: 'Raleway', sans-serif;
+     
+
+  }
+  
+  h2 {
+    font-family: 'Raleway', sans-serif;
+      
+      font-weight: 100;
+      font-size: 22px;
+      letter-spacing: 7px;
+  }
+  
+  .title p   {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: rgb(18, 18, 19);
+      font-size: 15px;
+      line-height: 30px;
+      padding-right: 0px;
+      font-family: 'Raleway', sans-serif;
+      
+  }
+
+  .card   {
+    width: 418px;
+    height: 297px;
+   
+  }
+
+
+
+  h3   {
+    margin-top: 25px;
+    padding-left: 25px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.card p     {
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: rgb(255, 255, 255 );
+}
+
+
+
+
+.card:hover    {
+  background-color: rgba(17, 17, 17, 0);
+  background-blend-mode: multiply;
+  color: rgba(255, 255, 255);
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.card:hover .text   {
+  opacity: 0;
+}
+  /* HAMBURGER MENU */
+
+  .navigation {
+    display: block;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+ 
+  overflow-x: hidden; 
+}
+
+.navigation a
+{
+  text-decoration: none;
+  color: #FFE6F0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #232323;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #FFE6F0;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  height: 100vh;
+  width: 500px;
+  margin: -100px 0 0 0;
+  padding-top: 125px;
+  right: -100px;
+  background: #0f0f0ff5;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+
+#menu li
+{
+  padding: 5% 0;
+  font-size: 1.75em;
+  display: block;
+  padding-left: 70px;
+ text-align: left;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+  opacity: 1;
+}
+
+
+/* MENU */
+
+.menuGrid   {
+    flex-wrap: wrap;
+}
+
+
+
+
+/* FOOTER */
+
+.socialIcon img{
+  /* width: 40%; */
+  margin-bottom: 0px;
+
+}
+
+.socialList{
+    
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+}
+
+@media only screen and (min-width:1600px) {
+  .container  {
+  
+    /* background-color: #fcf1f5; */
+
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-animation: color-change-3x 17s linear infinite alternate both;
+	 animation: color-change-3x 17s linear infinite alternate both;
+    
+}
+
+}
+
+

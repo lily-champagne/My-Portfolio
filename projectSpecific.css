@@ -1,0 +1,127 @@
+.container{
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	 animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+     -webkit-animation: color-change-3x 17s linear infinite alternate both;
+	 animation: color-change-3x 17s linear infinite alternate both;
+     background-image: none;
+     background-color: #af6f6b13;
+}
+.logo   {
+    padding-top: 30px;
+    width: 220px;
+    display: block;
+}
+
+.header  {
+   margin-top: 10%;
+   margin-bottom: 10%;
+   padding-left: 8%;
+   padding-right: 8%;
+    align-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.header p{
+    margin-top: 50px;
+
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+
+.imgWrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgWrapper img {
+    margin-bottom: 50px;
+}
+
+
+button{
+    margin-top: 0px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.imgWrapper p{
+    
+    margin-bottom: 50px;
+    padding-left: 8%;
+   padding-right: 8%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+video{
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 576px)    {
+    .imgWrapper {
+        text-align: center;
+        margin-bottom: 10px;
+       
+    }
+
+    img {
+
+        width: 100%;
+    }
+
+    
+.imgWrapper p{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.header  {
+
+    margin: 0%;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+     margin-bottom: 50px;
+     text-align: center;
+ }
+
+  
+
+    .logo {
+        display: none;
+    }
+
+    h1{
+        margin-top: 100px;
+       
+    }
+
+    .header p {
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+
+  
+}
+
+@media screen and (max-width: 768px)  {
+    .logo{ display: none;}
+  }
