@@ -246,6 +246,10 @@ h3   {
     background-image: url(img/infinitycard.png) ;
 }
 
+.card8 {
+  background-image: url(img/cafe111card.png);
+}
+
 .button {
 display: flex;
 justify-content: center;
@@ -544,7 +548,7 @@ button a:hover button{
 
     .title  {
       margin-top: 100px;
-      width: 418px;
+      width: 100%;
       margin-bottom: 50px;
       -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
      animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -553,11 +557,11 @@ button a:hover button{
   }
 
   .title h1 {
-    text-align: left;
+    text-align: center;
   }
 
   .title h2 {
-    text-align: left;
+    text-align: center;
   }
   
   h1{
@@ -584,7 +588,7 @@ button a:hover button{
       color: rgb(18, 18, 19);
       font-size: 15px;
       line-height: 30px;
-      padding-right: 80px;
+      /* padding-right: 80px; */
       font-family: 'Raleway', sans-serif;
       
   }

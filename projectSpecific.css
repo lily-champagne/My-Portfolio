@@ -39,6 +39,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+  
 }
 
 .imgWrapper img {
