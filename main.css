@@ -250,6 +250,10 @@ h3   {
   background-image: url(img/cafe111card.png);
 }
 
+.card8 {
+  background-image: url(img/mjwebsitecard.png);
+}
+
 .button {
 display: flex;
 justify-content: center;
