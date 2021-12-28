@@ -6,6 +6,7 @@
      background-image: none;
      background-color: #af6f6b13;
 }
+
 .logo   {
     padding-top: 30px;
     width: 220px;
@@ -24,6 +25,7 @@
 
 .header p{
     margin-top: 50px;
+    margin-bottom: 0;
 
     /* padding-left: 10%;
     padding-right: 10%; */
@@ -69,6 +71,7 @@ button{
 video{
     margin-bottom: 50px;
 }
+
 
 
 @media screen and (max-width: 576px)    {
