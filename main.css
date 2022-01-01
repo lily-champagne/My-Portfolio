@@ -25,12 +25,13 @@ a{
     align-items: center;
     /* -webkit-animation: color-change-3x 17s linear infinite alternate both;
 	 animation: color-change-3x 17s linear infinite alternate both; */
-   background-image: url(img/background4.png);
+   background-image: url(img/background5.png);
    background-size:cover;
    -webkit-animation: bg-pan-left 15s alternate-reverse both;
    animation: bg-pan-left 15s alternate-reverse both;
     
 }
+
 
 .navBar {
     
@@ -252,6 +253,10 @@ h3   {
 
 .card9 {
   background-image: url(img/mjwebsitecard.png);
+}
+
+.card10 {
+  background-image: url(img/tridentcard.png);
 }
 
 .button {
