@@ -72,6 +72,14 @@ video{
     margin-bottom: 50px;
 }
 
+.thesisButton{
+    background: #ceaaae;
+    
+}
+
+.thesisButton a{
+    color: black;
+}
 
 
 @media screen and (max-width: 576px)    {
